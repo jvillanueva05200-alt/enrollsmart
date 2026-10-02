@@ -1,0 +1,20 @@
+{
+  "name": "jpc-enrollsmart",
+  "version": "2.0.0",
+  "private": true,
+  "description": "JPC ENROLLSMART React application with Bootstrap 5 and PWA support.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "start": "node ../backend/server.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "firebase": "^12.19.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^6.1.0"
+  }
+}

@@ -1,0 +1,8 @@
+:root { --enrollsmart-navy: #0f2942; }
+html { scroll-behavior: smooth; }
+body { min-width: 320px; background: #f8f9fa; }
+.brand-logo { width: 42px; height: 42px; object-fit: contain; border-radius: .5rem; }
+.auth-logo { width: 76px; height: 76px; object-fit: contain; }
+.min-vh-100 { min-height: 100vh; }
+.bg-dark { background-color: var(--enrollsmart-navy) !important; }
+@media (max-width: 575.98px) { .display-4 { font-size: 2.5rem; } }
